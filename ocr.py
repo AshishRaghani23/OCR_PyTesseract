@@ -2,10 +2,9 @@ import cv2
 import numpy as np
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 # Load the image using OpenCV
-image = cv2.imread('Assignment\\Data\\Task1\\3.jpg')
+image = cv2.imread('1.jpg')
 
 # Convert the image to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
